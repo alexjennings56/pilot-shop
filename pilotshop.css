@@ -8,3 +8,43 @@ box-sizing:border-box;
 	height:50px;
 	line-height:50px;
 }
+
+.logo{
+	border:none;
+	padding:25px;
+}
+
+.largeimg{
+	position:relative;
+	width:100%;
+}
+
+.fa{
+	background-image: url("pilotimg.jpg");
+	background-size:cover;
+	background-position:center;
+	height:600px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-bottom:250px;
+	color:white;
+	font-size:40px;
+	font-family:sans-serif;
+}
+
+
+.navbar{
+	height:100px;
+}
+
+.navlink{
+	border:none;
+	padding:15px;
+}
+
+.navlinks{
+	border:none;
+	padding:15px;
+	
+}
