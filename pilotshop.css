@@ -1,0 +1,103 @@
+*{
+box-sizing:border-box;
+}
+
+.topbar{
+	background-color:#f8f8f8;
+	width:100%;
+	height:50px;
+	line-height:50px;
+	border:none;
+	color:#a2a2a2;
+	font-size:15px;
+	font-family:sans-serif;
+	text-decoration: none;
+}
+
+.phonenumber{
+	float:left;
+	width:50%;
+}
+
+.toplink{
+	float:right;
+	width:50%;
+}
+
+a{
+	text-decoration: none;
+	color:#a2a2a2;
+}
+
+.ui{
+	float:right;
+	width:50%;
+}
+
+
+.largeimg{
+	position:relative;
+	width:100%;
+}
+
+.fa{
+	background-image: url("pilotimg.jpg");
+	background-size:cover;
+	background-position:center;
+	height:600px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-bottom:250px;
+	color:#ffffff;
+	font-size:35px;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+.smalltext{
+	color:#ffffff;
+	font-size:15px;
+	font-family:sans-serif;
+
+}
+
+.logolink{
+	width:50%;
+	margin:0 auto;
+	float:left;
+	line-height:80px;
+	border:none;
+	padding:30px;
+	display: block;
+
+}
+
+.navlinks{
+	border:none;
+	padding:25px;
+	float:right;
+	width:50%;
+	line-height:80px;
+	font:white;
+	font-size:15px;
+	font-family:sans-serif;
+}
+
+.bshopnow{
+	display:block;
+	margin:0 auto;
+	border:5;
+	padding:10px 22px;
+	background-color:none;
+	border-color:#ffffff;
+	color:#ffffff;
+	background-color: transparent;
+	
+
+}
+
+.navbar{
+	overflow:auto;
+	height:120px;
+}
