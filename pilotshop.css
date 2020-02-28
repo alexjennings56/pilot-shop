@@ -29,12 +29,6 @@ a{
 	color:#a2a2a2;
 }
 
-.ui{
-	float:right;
-	width:50%;
-}
-
-
 .largeimg{
 	position:relative;
 	width:100%;
@@ -44,7 +38,7 @@ a{
 	background-image: url("pilotimg.jpg");
 	background-size:cover;
 	background-position:center;
-	height:600px;
+	height:500px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -57,9 +51,8 @@ a{
 
 .smalltext{
 	color:#ffffff;
-	font-size:15px;
+	font-size:20px;
 	font-family:sans-serif;
-
 }
 
 .logolink{
@@ -70,7 +63,6 @@ a{
 	border:none;
 	padding:30px;
 	display: block;
-
 }
 
 .navlinks{
@@ -88,16 +80,41 @@ a{
 	display:block;
 	margin:0 auto;
 	border:5;
-	padding:10px 22px;
+	padding:15px 32px;
 	background-color:none;
 	border-color:#ffffff;
 	color:#ffffff;
 	background-color: transparent;
-	
-
 }
 
 .navbar{
 	overflow:auto;
 	height:120px;
+}
+
+.showcase{
+	margin: 0 auto;
+	position: relative;
+}
+
+.headingholder{
+	display:flex;
+	justify-content:center;
+}
+
+.headingbox{
+	width:75%;
+}
+
+.headings{
+	font-size:15px;
+	font-family:arial;
+	width:33.3%;
+	float:left;
+	margin:auto;
+	padding:12px;	
+}
+
+.headings img{
+	width:100%;
 }
